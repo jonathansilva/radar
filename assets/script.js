@@ -77,6 +77,10 @@ const random = array => {
 button.addEventListener('click', e => handle(e));
 
 const handle = async ({ target }) => {
+    if (target.tagName === 'P') {
+        return;
+    }
+
     target.classList.add('hidden');
 
     // Inicia animação
