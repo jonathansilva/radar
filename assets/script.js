@@ -1,14 +1,14 @@
-const radar = document.querySelector('.radar');
+const sonar = document.querySelector('.sonar');
 
-const lines = radar.querySelector('.lines');
-const matrix = radar.querySelector('.matrix');
-const rotary = radar.querySelector('.rotary');
-const button = radar.querySelector('button');
+const lines = sonar.querySelector('.lines');
+const matrix = sonar.querySelector('.matrix');
+const rotary = sonar.querySelector('.rotary');
+const button = sonar.querySelector('button');
 
-const circles = [...radar.querySelectorAll('.circle')];
-const persons = [...radar.querySelectorAll('.person')];
+const circles = [...sonar.querySelectorAll('.circle')];
+const persons = [...sonar.querySelectorAll('.person')];
 
-const audio = new Audio('assets/audio/radar-detector-beeps.wav');
+const audio = new Audio('assets/audio/sonar-detector-beeps.wav');
 audio.load();
 
 const positions = {
@@ -62,8 +62,9 @@ const roles = [
     "\"eu codo\"",
     "Coda fofo",
     "Engenheiro de prompt",
-    "Low-coder",
-    "No-coder"
+    "Low coder",
+    "No coder",
+    "Vibe coder"
 ];
 
 const sleep = ms => {
@@ -136,7 +137,7 @@ const start = async () => {
 }
 
 const finish = async () => {
-    const woke = radar.querySelector('.woke');
+    const woke = sonar.querySelector('.woke');
 
     const role = woke.querySelector('.role');
 

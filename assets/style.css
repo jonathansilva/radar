@@ -45,7 +45,7 @@ main {
     display: none !important;
 }
 
-.radar {
+.sonar {
     position: absolute;
 
     top: 50%;
@@ -542,7 +542,7 @@ main {
         display: contents;
     }
 
-    .radar {
+    .sonar {
         display: none;
     }
 
