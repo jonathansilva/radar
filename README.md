@@ -6,7 +6,7 @@ Tecnologia brasileira que utiliza um **sonar trans** para detectar *wokes* em am
 
 ![woke](https://github.com/jonathansilva/radar/blob/master/screenshots/screenshot-woke.png?raw=true)
 
-> Calibrado para os seguintes tipos de woke
+> Calibrado para os seguintes tipos
 
 - [X] "eu codo"
 - [X] "Coda fofo"
