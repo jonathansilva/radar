@@ -2,9 +2,9 @@
 
 Tecnologia brasileira que utiliza um **sonar trans** para detectar *wokes* em ambiente terreste ( radar )
 
-![sonar](https://github.com/jonathansilva/radar/blob/master/screenshots/screenshot-sonar.png?raw=true)
+![sonar](screenshots/screenshot-sonar.png)
 
-![woke](https://github.com/jonathansilva/radar/blob/master/screenshots/screenshot-woke.png?raw=true)
+![woke](screenshots/screenshot-woke.png)
 
 > Calibrado para os seguintes tipos
 
